@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ES">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>SPORTS SHOES</title>
+</head>
+<body>
+    <section class="contenido">
+        <div class="mostrador" id="mostrador">
+            <div class="fila">
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="img/img1.png" alt="">
+                        <p class="descripcion">NIKE MODEL ONE</p>
+                        <span class="precio">$ 50</span>
+                    </div>
+                </div>
+
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="img/img2.png" alt="">
+                        <p class="descripcion">NIKE MODEL TWO</p>
+                        <span class="precio">$ 50</span>
+                    </div>
+                </div>
+
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="img/img3.png" alt="">
+                        <p class="descripcion">NIKE MODEL THREE</p>
+                        <span class="precio">$ 50</span>
+                    </div>
+                </div>
+
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="img/img1.png" alt="">
+                        <p class="descripcion">NIKE MODEL FOUR</p>
+                        <span class="precio">$ 50</span>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="fila">
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="img/img1.png" alt="">
+                        <p class="descripcion">NIKE MODEL FIVE</p>
+                        <span class="precio">$ 50</span>
+                    </div>
+                </div>
+
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="img/img2.png" alt="">
+                        <p class="descripcion">NIKE MODEL SIX</p>
+                        <span class="precio">$ 50</span>
+                    </div>
+                </div>
+
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="img/img3.png" alt="">
+                        <p class="descripcion">NIKE MODEL SEVEN</p>
+                        <span class="precio">$ 50</span>
+                    </div>
+                </div>
+
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="img/img1.png" alt="">
+                        <p class="descripcion">NIKE MODEL EIGHT</p>
+                        <span class="precio">$ 50</span>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <!--CONTENEDOR DEL ITEM SELECCIONADO-->
+        <div class="seleccion" id="seleccion">
+            <div class="cerrar" onclick="cerrar()">
+                &#x2715
+            </div>
+            <div class="info">
+                <img src="img/img1.png" alt="" id="img">
+                <h2 id="modelo">NIKE MODEL ONE</h2>
+                <p id="descripcion">Model One Description</p>
+
+                <span class="precio" id="precio">$ 50</span>
+
+                <div class="fila">
+                    <div class="size">
+                        <label for="">SIZE</label>
+                        <select name="" id="">
+                            <option value="">40</option>
+                            <option value="">42</option>
+                            <option value="">44</option>
+                            <option value="">46</option>
+                        </select>
+                    </div>
+                    <button>Add Cart</button>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
